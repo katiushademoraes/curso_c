@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <limit.h>
 
 int main(void){
-  char c;
-  c = 127;
+  int i = INT_MAX;
 
-  printf("O tamanho de c é: %lu e o valor de c é: %i\n", sizeof c,c);
+  printf("O tamanho de i é: %zu e o valor de c é: %d\n", sizeof i,i);
 
   return 0;
 
