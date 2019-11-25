@@ -1,0 +1,3 @@
+- cp ../aula2/char.c . : copia o arquivo do outro diretório para o diretório atual
+-mv char.c int.c : renomeia o arquivo
+
