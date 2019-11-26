@@ -1,0 +1,8 @@
+- make nomedoprograma: atalho pra compilação
+- %lu: length unsigned char
+- o valor 1 corresponde a 1 byte
+
+Pra inserir um valor negativo na variável, é preciso declarar o tipo como "signed char" (default). Num espaço de 8 bits, o primeiro número é usado para representar o sinal negativo. Assim, o maior número de 8 bits seria: 11111111, mas pra representar números negativos seria: 01111111. Portanto, o máximo de números negativos possíveis é 127 (2^7 - 1). A partir do 128, ele começa a contar em regressiva até chegar o -1.
+
+Se você não quiser declarar valores negativos, basta definir como "unsigned char".
+

@@ -1,0 +1,32 @@
+comandos básicos vim:
+- i: insert (edição)
+- esc: sair do modo edição
+- :w : salvar
+- :q: sair
+- :x : sair 
+- :wq : salvar e sair
+- u : desfazer
+- ctrl + a : incrementa números
+- ctrl + x: decrementa números
+- :set nu : numera as linhas
+
+
+entrar no vim:
+- vi + enter
+- vim + enter
+
+dicas shell:
+- mkdir : cria diretório
+- rm + nome do arquivo : remover arquivo
+- cat + nome do arquivo : exibe o conteúdo do arquivo
+- !$ : repete o último comando
+- vi ~/.vimrc : cria arquivo com configuração do vim
+
+compilar:
+- gcc -o (nome do arquivo a ser criado) (arquivo em c): espera como entrada um arquivo em c
+- para acessar o programa: precisa digitar o local + nome do arquivo
+- ./ : atalho para o diretório atual
+
+
+
+

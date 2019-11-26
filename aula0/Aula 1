@@ -1,0 +1,32 @@
+printf é uma função que está dentro do stdio.h
+
+void significa que a função não recebe nenhum argumento
+
+pra ver se o programa retornou o que a função pediu:
+- echo $?
+
+O 0 é uma convenção pra saber se o programa foi executado corretamente.
+
+atalho:
+- ./nomedoprograma && echo programa executado corretamente
+
+acessar o manual do Linux com a função printf:
+- man 3 printf
+
+printf retorna o número de caracteres impressos, excluindo o null byte
+
+função da shell 
+- echo  string | wc -c : pra contar caracteres
+- echo argumento | hd : exibe caracteres na tabela ascii
+- calculadora do shell: bc
+ibase=10
+ibase=10 etc
+
+vi
+- x : apaga de caractere em caractere
+
+%d
+%x : imprime em hexadecimal
+%c: imprime o caractere correspondente
+
+

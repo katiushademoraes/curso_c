@@ -1,3 +1,10 @@
 - cp ../aula2/char.c . : copia o arquivo do outro diretório para o diretório atual
 -mv char.c int.c : renomeia o arquivo
+-limits.h
+- stdint.h : é possível definir qual o tamanho desejado da variável
+- short int: 2 bytes, 16 bits
+- long int: 8 bytes, 64 bits
+- stdlib.h : size_t (%zu)
+
+
 
